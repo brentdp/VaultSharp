@@ -1,3 +1,28 @@
+## 0.11.1002 (April 21, 2019)
+
+**FEATURES:**
+
+  * [GH-74] Added support for .NET Standard 2.0 as well.
+  * [GH-53] Added Wrapping support to the library.
+
+## 0.11.1001 (April 20, 2019)
+
+**BUG FIXES:**
+
+  * Fixes default path of KeyValue version 1 to be kv.
+  * Fixes a bug with IAM Login, for the shorter overload of the ```IAMAWSAuthMethodInfo``` class. Fixes [GH-61].
+
+**DOC IMPROVEMENTS:**
+
+  * Fixes [GH-57]. Replaced the use of ```var``` in docs with type info, where the type is hard to infer.
+
+## 0.11.1000 (April 15, 2019)
+
+**BUG FIXES:**
+
+  * Fixes [GH-67] to read array of ca_chain instead of single string.
+  * Removed the misleading default value in IAM Auth requestHeaders. Caller needs to explicitly pass a list of signed IAM STS Headers. Please see docs to generate this.
+
 ## 0.11.1-beta1 (March 17, 2019)
 
 **BUG FIXES:**
